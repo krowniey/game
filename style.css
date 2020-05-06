@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  box-sizing: border-box;
+  background-color:rgba(18, 18, 80, 0.897);
+  font-size: 62.5%;
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+}
+
+h1{
+  font-size: 3rem;
+  color: rgb(185, 199, 241);
+  margin: 3rem;
+}
+h4{
+  margin-bottom:1rem;
+}
+h1 >span{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+h2{
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 2.8rem;
+  font-weight: 500;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width:100vw ;
+  height: 100vh;
+  align-items: center;
+  margin:  0 auto;
+  max-width: 80rem;
+  padding: 2rem;
+}
+.container >*{
+width: 100%;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.flex-center{
+  align-items: center;
+  justify-content: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.text-center{
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+.link{
+  font-size: 20px;
+  padding:4px 0;
+  width: 200px;
+  margin-bottom:2px; 
+  text-align: center;
+  border: 4px solid rgb(185, 199, 241);
+  background-color: white;
+  text-decoration: none;
+  color: rgb(154, 173, 231);
+}
+link:hover{ 
+  cursor: pointer;
+  transform:translate(-0.1rem);
+  box-shadow: 0 0.4rem black;
+  transition:150ms;
+
+}
+.link[disabled]:hover{
+  cursor: not allowed;
+  box-shadow: none;
+  transform: none;
+}
+.btn-holder {
+  display: flex;
+  margin-top: 2rem;
+  /* justify-content: space-between; */
+}
+.btn-holder button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #fff!important;
+  background-color: #3f51b5!important;
+  font-size: 24px;
+}
+
+
+.options {
+  margin-bottom: 2rem;
+  font-size: 19px;
+  background: white;
+  padding: 0.5rem;
+  color: black;
+  cursor: pointer;
+}
+.correct {
+  color: white;
+  background: green;
+  font-size: 19px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.wrong {
+  color: white;
+  background: red;
+  font-size: 19px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}

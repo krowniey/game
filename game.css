@@ -1,0 +1,43 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(147, 147, 238);
+    background-color: white;
+    color:rgb(132, 132, 243); 
+
+}
+.choice-container :hover{
+    cursor: pointer;
+    transform:translate(-0.1rem);
+    box-shadow: 0 0.4rem black;
+    transition:150ms;
+}
+.choice-prefix{
+    padding: 0.1rem 1.5rem;
+    background-color: rgb(70, 70, 165);
+    color: white;
+}
+.choice-text{
+    padding:0.2rem;
+    width: 100%;
+    color: rgb(129, 129, 206);
+}
+.correct{
+    background-color: rgb(19, 153, 19);
+}
+.incorrect{
+    background-color: rgb(248, 28, 28);
+}
+#head{
+    display: flex;
+    justify-content: space-around;
+}
+.head-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+.head-main-text{
+    text-align: center;
+}

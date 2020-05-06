@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
+  <title>quiz play</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="game" class="justify-center flex-column">
+      <div id="head">
+        <div id="head-item">
+          <p class="head-prefix">
+            Question
+          </p>
+          <h1 class="head-main-text" id="questionCounter">
+
+          </h1>
+        </div>
+
+        <div id="head-item">
+          <p class="head-prefix">
+            Score
+          </p>
+          <h1 class="head-main-text" id="score">
+            
+          </h1>
+        </div>
+      </div>
+
+
+      <h2 id="question"></h2>
+      <div class="options" id="option1" onclick="selectOption(this)"></div>
+      <div class="options" id="option2" onclick="selectOption(this)"></div>
+      <div class="options" id="option3" onclick="selectOption(this)"></div>
+      <div class="options" id="option4" onclick="selectOption(this)"></div>
+
+      <div class="btn-holder">
+        <button onclick="next()" id="nextbtn">Next</button>
+      </div>
+
+      <h1 class="final" id="finalScore">
+        FinalScore
+      </h1>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
